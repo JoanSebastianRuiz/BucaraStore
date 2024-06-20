@@ -50,7 +50,7 @@ article img{
 }
 
 article{
-    overflow: scroll;
+    overflow-y: scroll;
     width: 80vw;
     display: flex;
     flex-direction: column;
