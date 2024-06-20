@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 2vw;
 }
 
 body{
@@ -19,7 +20,7 @@ header{
 aside ul{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 2rem;
 }
 
 aside li{
@@ -42,10 +43,10 @@ main aside{
     width: 20vw;
 }
 article img{
-    width: 100%;
     height: auto;
-    border: 0.2em solid black;
-    border-radius: 0.5em;
+    width: 50%;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
 }
 
 article{
@@ -53,23 +54,35 @@ article{
     width: 80vw;
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    padding-left: 2em;
+    padding: 1rem;
     border: 0.2vw solid black;
-    border-radius: 0.8em;
+    border-radius: 0.8rem;
     background-color: rgba(0, 128, 0, 0.197);
 }
 
 article section{
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 1rem 0;
 }
 
 article ul{
     display: flex;
     flex-wrap: wrap;
-    gap: 3em;
+    gap: 3rem;
+}
+
+article li {
+    list-style-type: none;
+    width: 25%;
+    height: auto;
+    display: flex;
+}
+
+article li div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1{
@@ -84,7 +97,7 @@ h3{
 }
 
 h4{
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -92,29 +105,13 @@ article p, article a{
     font-size: 0.7vw;
 }
 
-article li {
-    list-style-type: none;
-    display: grid;
-    grid-template-rows: 60% 40%;
-    align-items: center;
-    justify-items: center;
-    width: 10vw;
-    
-}
-
-article li div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 article a, aside a{
     text-decoration: none;
-    padding: 0.2em;
+    padding: 0.2rem;
     background-color: rgb(255, 228, 196);
     color: black;
-    border-radius: 0.5em;
-    border: 0.1em solid black;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
 }
 
 aside a{
@@ -125,3 +122,4 @@ footer{
     display: flex;
     height: 10%;
 }
+
